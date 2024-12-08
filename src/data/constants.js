@@ -2,6 +2,7 @@ import portfolioImage from './portfolio.png';
 import handImage from './handtracker.png';
 import masclubImage from './masclub.png';
 import adapitfy from './adapitfy.png'
+import adImage from './ad-image.png'
 
 export const Bio = {
   name: "Lucas Marujo",
@@ -293,7 +294,7 @@ export const projects = [
     date: "Jan 2025",
     description:
       "This project is a Python-based bot developed independently, designed to streamline job application processes by automating CV submissions on job platforms. Leveraging web scraping techniques and other advanced programming tools, the bot efficiently navigates job boards, fills out application forms, and uploads the CV to relevant job postings.",
-    image: handImage,
+    image: adImage,
     tags: ["Python"],
     category: "machine-learning",
     github: "https://github.com/lucasmarujo/handtrack-project",
@@ -305,7 +306,7 @@ export const projects = [
     date: "Dec 2024",
     description:
       "This project is a full-stack CRUD application developed independently, designed to manage data with a focus on scalability, documentation, and deployment. The application was built using modern frameworks and tools, including Swagger for API documentation and Docker for containerization.",
-    image: handImage,
+    image: adImage,
     tags: ["Node Js", "Swagger", "Docker"],
     category: "machine learning",
     github: "https://github.com/lucasmarujo/handtrack-project",
