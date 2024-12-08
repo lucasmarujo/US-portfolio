@@ -14,7 +14,7 @@ export const Bio = {
     "I'm a motivated and versatile person, always willing to take on new challenges. With a passion for learning, I'm dedicated to delivering high-quality results. With a positive attitude and a growth mindset, willing to contribute significantly and achieve great things.",
   github: "https://github.com/lucasmarujo",
   resume:
-    "https://drive.google.com/file/d/1QH-MBrgXimfvk_Vv3Bduwc0hsSXdeVXs/view?usp=sharing",
+    "https://drive.google.com/file/d/1akTbs7FMhmyFQYI6ozd5y4hhna-gunrH/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/lucas-marujo-amadeu-5322a7219/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/lucas.marujo/",
