@@ -3,6 +3,7 @@ import handImage from './handtracker.png';
 import masclubImage from './masclub.png';
 import adapitfy from './adapitfy.png'
 import adImage from './ad-image.png'
+import todoimg from './todolist.png'
 
 export const Bio = {
   name: "Lucas Marujo",
@@ -289,7 +290,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Job Finder",
     date: "Jan 2025",
     description:
@@ -301,15 +302,16 @@ export const projects = [
     
   },
   {
-    id: 2,
-    title: "CRUD with swagger+docker",
+    id: 4,
+    title: "ToDo List",
     date: "Dec 2024",
     description:
-      "This project is a full-stack CRUD application developed independently, designed to manage data with a focus on scalability, documentation, and deployment. The application was built using modern frameworks and tools, including Swagger for API documentation and Docker for containerization.",
-    image: adImage,
-    tags: ["Node Js", "Swagger", "Docker"],
+      "A ToDoList App built with Node.js, featuring full CRUD functionality (Create, Read, Update, Delete). It allows users to manage tasks by adding, editing, marking as completed, and deleting them. The backend is powered by Express.js, with a database like MongoDB for persistent storage. The app follows RESTful API principles, ensuring scalable and maintainable code. Authentication and input validation can be integrated for added security and reliability. This project demonstrates core web development concepts, including API development, database management, and server-side logic.",
+    image: todoimg,
+    tags: ["Node Js", "React Js" , "JS", "typescript"],
     category: "machine learning",
-    github: "https://github.com/lucasmarujo/handtrack-project",
+    github: "https://github.com/lucasmarujo/todolist",
+    webapp: "https://lucasmarujo.github.io/todolist/",
     
   },
 ];
