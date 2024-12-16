@@ -4,6 +4,7 @@ import masclubImage from './masclub.png';
 import adapitfy from './adapitfy.png'
 import adImage from './ad-image.png'
 import todoimg from './todolist.png'
+import AdapitfyC from './AdapitfyC.png'
 
 export const Bio = {
   name: "Lucas Marujo",
@@ -289,18 +290,18 @@ export const projects = [
       },
     ],
   },
-  {
-    id: 3,
-    title: "Job Finder",
-    date: "Jan 2025",
-    description:
-      "This project is a Python-based bot developed independently, designed to streamline job application processes by automating CV submissions on job platforms. Leveraging web scraping techniques and other advanced programming tools, the bot efficiently navigates job boards, fills out application forms, and uploads the CV to relevant job postings.",
-    image: adImage,
-    tags: ["Python"],
-    category: "machine-learning",
-    github: "https://github.com/lucasmarujo/handtrack-project",
+  // {
+  //   id: 3,
+  //   title: "Job Finder",
+  //   date: "Jan 2025",
+  //   description:
+  //     "This project is a Python-based bot developed independently, designed to streamline job application processes by automating CV submissions on job platforms. Leveraging web scraping techniques and other advanced programming tools, the bot efficiently navigates job boards, fills out application forms, and uploads the CV to relevant job postings.",
+  //   image: adImage,
+  //   tags: ["Python"],
+  //   category: "machine-learning",
+  //   github: "https://github.com/lucasmarujo/handtrack-project",
     
-  },
+  // },
   {
     id: 4,
     title: "ToDo List",
@@ -312,6 +313,19 @@ export const projects = [
     category: "machine learning",
     github: "https://github.com/lucasmarujo/todolist",
     webapp: "https://lucasmarujo.github.io/todolist/",
+    
+  },
+  {
+    id: 4,
+    title: "Adapitfy Courses",
+    date: "Dec 2024",
+    description:
+      "Adapitfy Courses is an online platform offering a variety of courses designed to enhance skills and knowledge in different fields. Its user-friendly interface provides easy access to learning materials, enabling personal and professional development.",
+    image: AdapitfyC,
+    tags: ["Node Js", "Next Js" , "TypeScript", "JavaScript", "Stripe"],
+    category: "machine learning",
+    github: "https://github.com/lucasmarujo/adapitfy-courses",
+    webapp: "https://adapitfy-courses.vercel.app/",
     
   },
 ];
